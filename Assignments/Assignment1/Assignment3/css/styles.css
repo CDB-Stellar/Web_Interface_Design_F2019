@@ -1,0 +1,98 @@
+﻿/* Chloe Baker - 301062067 */
+
+body {
+	font-family:Calibri, sans-serif;
+}
+
+#wrapper {
+	width:980px;
+	margin:20px auto;
+}
+
+table {
+	margin:auto;
+}
+
+h1{
+	font-size:55px;
+	font-weight:bold;
+	color:black;
+}
+
+p {
+	font-size:20px;
+}
+
+div {
+	background-color:#DFDDEE;
+}
+
+#banner {
+	background-image:url('../images/banner.jpg');
+}
+
+#banner img {
+	margin-left:830px;
+}
+
+#banner h1 {
+	margin-left:350px;
+}
+
+#nav {
+	background-color:white;
+	font-size:20px;
+	color:#EF94C4;
+	text-align:center
+}
+
+#left-sidebar{
+	width:500px;
+	float:left;
+}
+
+#left-sidebar ul {
+	list-style:none;
+}
+
+#left-sidebar p {
+	text-align:center;
+}
+
+#left-sidebar td {
+	padding:10px;
+}
+
+#content{
+	width:480px;
+	float:right;
+}
+
+#content ul{
+	font-size:16px;
+	color:#660066;
+}
+
+#footer {
+	text-align:center;
+	font-size:14px;
+	font-style:italic;
+	color:#666699;
+}
+
+#details {
+	width:980px;
+}
+
+#details ul{
+	list-style:none;
+	margin:auto;
+}
+
+#map {
+	text-align:center;
+}
+
+hr {
+	width:980px;
+}

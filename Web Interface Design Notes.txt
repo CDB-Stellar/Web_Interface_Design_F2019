@@ -1,0 +1,76 @@
+WEB INTERFACE DESIGN NOTES
+_____________________________________________________________________________
+---Every time you open a tag "<>" you must close it at the end "</>"---
+
+Ex.
+	<body>	
+	Information goes here...
+	<body/>
+
+_____________________________________________________________________________
+---There are 3 main tags that every webpage has: <html>, <head>, <body>---
+
+<html> tag: contains everything in a webpage.
+
+<head> tag: contains instructional information for the browser. This information will not be seen on the webpage itself.
+
+<body> tag: one of the main tags that every webpage has, all content goes in here.
+
+<!DOCTYPE html> tag: you do not have to close, it signifies that this document is an html document.
+
+<title> tag: you put this in <head> section to create a title for the webpage that appears on the tab or title bar.
+
+<meta> tag: you put this in <head> section, this tells the browser instructions on how the webpage is made.
+
+	Ex.
+	<meta charset="utf-8"> tells the browser how the characters are encoded.
+
+<img> tag: is one that you do not have to close the same way as others, it contains an image.
+
+- every img tag has an "src" attribute to tell it where the image is located.
+- Every time you put in an image, you must give it an "alt" so when the image doesn't load there is still something there to tell the user what is supposed to be there.
+
+	Ex. 
+	<img src="puppy.jpg" alt="Puppy">
+
+_____________________________________________________________________________
+---There are 2 kinds of tags, block level tags and inline tags---
+
+Block level: means that the content will appear on separate lines.
+Inline level: means that the content will appear inline with no separation.
+
+<div> tag: is used to differentiate different divisions of information or elements on a webpage. It is a block level tag.
+
+- using an "id" with div is very important.
+
+	Ex.
+	<div id="banner"> ... </div>
+
+<span> tag: has the same purpose as <div> but is an inline level tag.
+
+_____________________________________________________________________________
+---There are 3 kinds of CSS styles---
+
+1. Tag styles: apply to every tag. Formatted as below:
+
+	Ex.
+	body {
+	   font-family:Calibri, sans-serif;
+	}
+
+2. Class styles: apply to every element you ave set to a certain class, can span different tags. Formatted as below:
+	
+	Ex.
+	.classname {
+	   background-color:white;
+	}
+
+3. ID styles: defines everything within the ID.
+Formatted as below:
+	
+	Ex.
+	#idname {
+	   color:grey;
+	}
+
+If you use the <style> tag inside an html document it will override whatever the CSS style is.
