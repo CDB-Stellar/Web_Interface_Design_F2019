@@ -1,0 +1,40 @@
+body {
+	background-color: #e1eaf7;
+	font-family: Arial, sans-serif;
+	margin: auto;
+}
+
+table {
+	background-color: #e1eaf7;
+	width: 900px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+form {
+	background-color: white;
+	font-family: Arial, sans-serif;
+	width: 980px;
+	padding: 10px;
+	margin: auto;
+}
+
+label {
+	float: left;
+	clear: left;
+	display: block;
+	/*width: 130px;*/
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+input, textarea {
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}

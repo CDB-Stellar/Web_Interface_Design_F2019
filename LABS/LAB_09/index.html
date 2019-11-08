@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- Chloe Baker - 301062067 - November 7, 2019 -->
+<html>
+	<head>
+		<meta content="en-us" http-equiv="Content-Language">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<meta content="HTML form, COMP213" name="keywords">
+		<meta content="Example of using HTML forms." name="description">
+		<title>Week 09 - CPCCP Membership Form</title>
+		<link href="Week09.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	
+	<main>
+		<form>
+		
+		<header>
+		<h1>Community of Patient-Centered Community Pharmacies Membership Form</h1>
+		</header>
+		
+			<fieldset><legend>Pharmacy Information</legend>
+				<label>Name of Pharmacy *
+				<input type="text" name="PName" id="PName" placeholder="Name" required="required" 
+					size="30"></label>
+				
+				<label>Address *
+				<input type="text" name="PAddress" id="PAddress"required="required"></label>
+			</fieldset>
+			
+			<fieldset><legend>Pharmacy Owner Information</legend>
+				<label>Name *
+				<input type="text" name="OName" id="OName" placeholder="First Last" required="required" 
+					size="30"></label>
+					
+				<label>Phone Number *
+				<input type="tel" name="OTelephone" id="OTelephone" placeholder="xxx xxx xxxx" 
+					required="required"></label>
+					
+				<label>Email
+				<input type="email" name="OEmail" id="OEmail" placeholder="something@whatever.com"></label>
+					
+				<label>Number of Pharmacists *
+				<input type="text" name="PNumber" id="PNumber" required="required" size="1"></label>
+				
+				<label>Number of Pharmacy Assistants *
+				<input type="text" name="PANumber" id="PANumber" required="required" size="1"></label>
+				
+				<label>Others *
+				<input type="text" name="ONumber" id="ONumber" required="required" size="1"></label>
+			</fieldset>
+			
+			<fieldset><legend>Others</legend>
+				<label>1. Name *
+				<input type="text" name="1Name" id="1Name" placeholder="First Last" required="required" 
+					size="30"></label>
+					
+				<label>Tel *
+				<input type="tel" name="1Telephone" id="1Telephone" placeholder="xxx xxx xxxx" 
+					required="required"></label>
+					
+				<label>Email
+				<input type="email" name="1Email" id="1Email" placeholder="something@whatever.com"></label>
+					
+				<label>2. Name
+				<input type="text" name="2Name" id="2Name" placeholder="First Last" size="30"></label>
+					
+				<label>Tel
+				<input type="tel" name="2Telephone" id="2Telephone" placeholder="xxx xxx xxxx"></label>
+					
+				<label>Email
+				<input type="email" name="2Email" id="2Email" placeholder="something@whatever.com"></label>
+			</fieldset>
+			
+			<fieldset><legend>Patient-Centered Services *</legend>
+			
+			<table>
+				<tr>
+					<td><label>Medication Therapy Management (MTM) Services</label></td>
+					<td><input type="radio" name="choice1" value="Existing">Existing</td>
+					<td><input type="radio" name="choice1" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Disease Based Management Services, e.g Diabetic Care</label></td>
+					<td><input type="radio" name="choice2" value="Existing">Existing</td>
+					<td><input type="radio" name="choice2" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Adherence counseling service</label></td>
+					<td><input type="radio" name="choice3" value="Existing">Existing</td>
+					<td><input type="radio" name="choice3" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Medication check-up service</label></td>
+					<td><input type="radio" name="choice4" value="Existing">Existing</td>
+					<td><input type="radio" name="choice4" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Medicine Use Review Service</label></td>
+					<td><input type="radio" name="choice5" value="Existing">Existing</td>
+					<td><input type="radio" name="choice5" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Point-of-care testing</label></td>
+					<td><input type="radio" name="choice6" value="Existing">Existing</td>
+					<td><input type="radio" name="choice6" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Immunization services</label></td>
+					<td><input type="radio" name="choice7" value="Existing">Existing</td>
+					<td><input type="radio" name="choice7" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Cardiovascular risk factor screening service</label></td>
+					<td><input type="radio" name="choice8" value="Existing">Existing</td>
+					<td><input type="radio" name="choice8" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Weight loss service</label></td>
+					<td><input type="radio" name="choice9" value="Existing">Existing</td>
+					<td><input type="radio" name="choice9" value="Interested">Interested</td>
+				</tr>
+				
+				<tr>
+					<td><label>Collaborative practice agreement with general & specialist doctors</label></td>
+					<td><input type="radio" name="choice10" value="Existing">Existing</td>
+					<td><input type="radio" name="choice10" value="Interested">Interested</td>
+				</tr>
+			</table>
+			
+			</fieldset>
+			
+			<fieldset><legend>Products and Services *</legend>
+				
+			<table>
+				<tr>
+					<td><label>Medicine Information Services (related to community pharmacy practice)</label></td>
+					<td><input type="radio" name="choice11" value="Interested">Interested</td>
+					<td><input type="radio" name="choice11" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Regular continuing professional education</label></td>
+					<td><input type="radio" name="choice12" value="Interested">Interested</td>
+					<td><input type="radio" name="choice12" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Practice evaluation and service recommendation</label></td>
+					<td><input type="radio" name="choice13" value="Interested">Interested</td>
+					<td><input type="radio" name="choice13" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Support services for development of new patient-centered service</label></td>
+					<td><input type="radio" name="choice14" value="Interested">Interested</td>
+					<td><input type="radio" name="choice14" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Access to Pharmacy student or practitioner trainee as support staff</label></td>
+					<td><input type="radio" name="choice15" value="Interested">Interested</td>
+					<td><input type="radio" name="choice15" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Participation in practice-based research</label></td>
+					<td><input type="radio" name="choice16" value="Interested">Interested</td>
+					<td><input type="radio" name="choice16" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Quality improvement services for existing patient-centered services in your pharmacy</label></td>
+					<td><input type="radio" name="choice17" value="Interested">Interested</td>
+					<td><input type="radio" name="choice17" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Participation in pharmaceutical company supported initiatives for patient-centered care</label></td>
+					<td><input type="radio" name="choice18" value="Interested">Interested</td>
+					<td><input type="radio" name="choice18" value="Undecided">Undecided</td>
+				</tr>
+				
+				<tr>
+					<td><label>Responding to symptoms weekly tips</label></td>
+					<td><input type="radio" name="choice19" value="Interested">Interested</td>
+					<td><input type="radio" name="choice19" value="Undecided">Undecided</td>
+				</tr>
+			</table>
+				
+			</fieldset>
+			
+			<fieldset><legend>Requests</legend>
+				<textarea cols="50" name="txtSpecialReq" rows="7">Are there some other services related to patient-centered care you would like to be included?</textarea>
+			</fieldset>
+			
+			<p>Required fields are marked with an *</p>
+			<input type="submit" value="Submit">&nbsp;<input type="reset">
+		</form>
+	</main>
+	<footer>
+		<p id="copyright">&copy;&nbsp;Copyright Chloe Baker - Fall 2019</p>
+	</footer>
+	
+	</body>
+</html>
