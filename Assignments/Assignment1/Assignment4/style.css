@@ -1,0 +1,49 @@
+body {
+	background-color: #414542;
+	font-family: Arial, sans-serif;
+	margin: auto;
+}
+
+table {
+	background-color: #d8f799;
+	width: 900px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+fieldset{
+	border-color:#b0e34b;
+}
+
+footer {
+	width: 980px;
+	margin: auto;
+	color:white;
+}
+
+form {
+	background-color: white;
+	font-family: Arial, sans-serif;
+	width: 980px;
+	padding: 10px;
+	margin: auto;
+}
+
+label {
+	float: left;
+	clear: left;
+	display: block;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+input, textarea {
+	margin-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}

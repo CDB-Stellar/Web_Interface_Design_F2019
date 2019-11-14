@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Chloe Baker - 301062067 - November 14, 2019-->
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Pacific Trails Resort - Sign Up</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+<h1>Sign Up </h1>
+<p>Your info<br>Your preferences</p>
+
+<form action="results.html" autocomplete="on">
+
+	<input type="hidden" id="name" name="name" />
+	<input type="hidden" id="email" name="email" />
+	<input type="hidden" id="phone" name="phone" />
+	<input type="hidden" id="address" name="address" />
+	<input type="hidden" id="city" name="city" />
+	<input type="hidden" id="state" name="state" />
+	<input type="hidden" id="zip" name="zip" />
+	
+	<fieldset><legend>Food allergies</legend>
+	<textarea id="allergyDesc" name="allergies"></textarea>
+	</fieldset>
+	
+	<fieldset><legend>Frequency</legend>
+	<input type="radio" id="weekly" value="Weekly" name="Frequency" />
+	<label for="weekly" id="WeeklyLabel">Weekly</label>
+	<input type="radio" id="biweekly" value="Biweekly" name="Frequency" />
+	<label for="biweekly" id="biweeklyLabel">Biweekly</label>
+	<input type="radio" id="monthly" value="Monthly" name="Frequency" />
+	<label for="monthly" id="monthlyLabel">Monthly</label>
+	</fieldset>
+	
+	<fieldset><legend>Package size</legend>
+	<input type="radio" id="Taste test" value="Taste test" name="Package size" />
+	<label for="Taste test" id="WeeklyLabel">Taste test</label>
+	<input type="radio" id="Healthy Highlight" value="Healthy Highlight" name="Package size" />
+	<label for="Healthy Highlight" id="biweeklyLabel">Healthy Highlight</label>
+	<input type="radio" id="Full plate" value="Full plate" name="Package size" />
+	<label for="Full plate" id="monthlyLabel">Full plate</label>
+	</fieldset>
+	
+	<fieldset>
+	<input type="submit" id="nextBtn" value="Next &gt;" />
+	</fieldset>
+
+</form>
+
+<footer>
+	<small><i>Copyright &copy; 2012 Pacific Trails Resort.</i></small>
+</footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

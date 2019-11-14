@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- Chloe Baker - 301062067 - November 14, 2019 -->
+<html>
+	<head>
+		<meta content="en-us" http-equiv="Content-Language">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>Assignment 4</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	
+	<main>
+		<form>
+		
+		<header>
+		<a href="https://www.centennialcollege.ca/" target="blank"><img src="banner.jpeg"/></a>
+		<h2>Continuing Education Course/Instructor Evaluation</h2>
+		</header>
+		
+		<p>Please read each statement carefully and consider each one individually.
+		Give only <b>one answer</b> for each question.</p>
+		
+			<fieldset><legend>Course Info</legend>
+				<label>Course Name/Code
+				<input type="text" name="courseName" id="courseName"></label>
+				
+				<label>Semester
+				<select id="semester">
+					<option value="Fall">Fall</option>
+					<option value="Winter">Winter</option>
+					<option value="Spring/Summer">Spring/Summer</option>
+				</select></label>
+				
+				<label>Year
+				<input type="text" name="year" id="year"></label>
+				
+				<label>Instructor
+				<input type="text" name="instructor" id="instructor"></label>
+			</fieldset>
+		
+			<fieldset><legend>Instructor</legend>
+			<p>How would you rate the instructor's:</p>
+			<table>
+				<tr>
+					<td><label><b>Knowledge</b> of Subject?</label></td>
+					<td><input type="radio" name="knowledge" value="Excellent">Excellent</td>
+					<td><input type="radio" name="knowledge" value="Good">Good</td>
+					<td><input type="radio" name="knowledge" value="Fair">Fair</td>
+					<td><input type="radio" name="knowledge" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+				<tr>
+					<td><label><b>Helpfullness</b>?</label></td>
+					<td><input type="radio" name="helpfullness" value="Excellent">Excellent</td>
+					<td><input type="radio" name="helpfullness" value="Good">Good</td>
+					<td><input type="radio" name="helpfullness" value="Fair">Fair</td>
+					<td><input type="radio" name="helpfullness" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+				<tr>
+					<td><label><b>Courtesy and respect</b> for all students?</label></td>
+					<td><input type="radio" name="courtesyRespect" value="Excellent">Excellent</td>
+					<td><input type="radio" name="courtesyRespect" value="Good">Good</td>
+					<td><input type="radio" name="courtesyRespect" value="Fair">Fair</td>
+					<td><input type="radio" name="courtesyRespect" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+				<tr>
+					<td><label><b>Communication</b> skills?</label></td>
+					<td><input type="radio" name="communication" value="Excellent">Excellent</td>
+					<td><input type="radio" name="communication" value="Good">Good</td>
+					<td><input type="radio" name="communication" value="Fair">Fair</td>
+					<td><input type="radio" name="communication" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+				<tr>
+					<td><label>Overall <b>performance</b>?</label></td>
+					<td><input type="radio" name="performance" value="Excellent">Excellent</td>
+					<td><input type="radio" name="performance" value="Good">Good</td>
+					<td><input type="radio" name="performance" value="Fair">Fair</td>
+					<td><input type="radio" name="performance" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+			</table>
+			</fieldset>
+			
+			<fieldset><legend>Course</legend>
+			<table>
+				<tr>
+					<td><label>How would you rate the <b>course materials</b>?</label></td>
+					<td><input type="radio" name="cmaterials" value="Excellent">Excellent</td>
+					<td><input type="radio" name="cmaterials" value="Good">Good</td>
+					<td><input type="radio" name="cmaterials" value="Fair">Fair</td>
+					<td><input type="radio" name="cmaterials" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+				<tr>
+					<td><label>How much did this course meet your <b>expectations</b>?</label></td>
+					<td><input type="radio" name="expectations" value="Excellent">Excellent</td>
+					<td><input type="radio" name="expectations" value="Good">Good</td>
+					<td><input type="radio" name="expectations" value="Fair">Fair</td>
+					<td><input type="radio" name="expectations" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+				<tr>
+					<td><label>How would you rate this course <b>overall</b>?</label></td>
+					<td><input type="radio" name="overall" value="Excellent">Excellent</td>
+					<td><input type="radio" name="overall" value="Good">Good</td>
+					<td><input type="radio" name="overall" value="Fair">Fair</td>
+					<td><input type="radio" name="overall" value="NotSatisfactory">Not Satisfactory</td>
+				</tr>
+			</table>
+			</fieldset>
+			
+			<fieldset><legend>General Information</legend>
+			<table>
+				<tr>
+					<td><label>Was the <b>course outline</b> reviewed/explained at the beginning of your course?</label></td>
+					<td><input type="radio" name="outline" value="Yes">Yes</td>
+					<td><input type="radio" name="outline" value="No">No</td>
+					<td><input type="radio" name="outline" value="NotSure">Not Sure</td>
+				</tr>
+				<tr>
+					<td><label>Would you <b>recommend</b> this course to a friend with the same interests?</label></td>
+					<td><input type="radio" name="recommend" value="Yes">Yes</td>
+					<td><input type="radio" name="recommend" value="No">No</td>
+					<td><input type="radio" name="recommend" value="NotSure">Not Sure</td>
+				</tr>
+			</table>
+			</fieldset>
+			
+			<fieldset><legend>Any Other Comments</legend>
+				<textarea cols="50" name="bestThing" rows="5">What is the best thing about this course?</textarea>
+				<br>
+				<textarea cols="50" name="improvement" rows="5">How would we improve this course?</textarea>
+				<br>
+				<textarea cols="50" name="other" rows="7">Other comments</textarea>
+			</fieldset>
+			
+			<p><small><i>Thank you! We pay attention to your feedback!<br>
+			Web: <a href="www.centennialcollege.ca/continuing_education">www.centennialcollege.ca/continuing_education</a><br>
+			Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+			</small></i></p>
+			
+			<input type="submit" value="Submit">&nbsp;<input type="reset">
+		</form>
+	</main>
+	
+	<footer>
+		<p id="copyright"><small>&copy;&nbsp;Copyright Chloe Baker - Fall 2019</small></p>
+	</footer>
+	
+	</body>
+</html>
