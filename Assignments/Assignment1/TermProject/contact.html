@@ -8,11 +8,9 @@
 </head>
 
 <header>
-<div class="topnav">
-  <a class="active" href="termproject.html">Home</a>
-  <a href="propertylistings.html">Property Listings</a>
-  <a href="contact.html">Contact</a>
-  <a href="sitemapcredits.html">Site Map | Credits</a>
+<div class="top">
+  <img src="logo.png" alt="logo"/>
+  <h1>Peter Parker Realty Inc.</h1>
 </div>
 
 </header>
@@ -27,25 +25,53 @@
 </div>
 
 <div class="main">
-  <img src="photo.png" alt="photo"/>
-  <h2>Contact</h2>
-  <p>An HTML page containing a form that can be completed by the visitor with his 
-  own preferences for the type of property he is interested in. The form should 
-  contain fields for the visitor’s first name, last name, phone, email, type of 
-  property (house or condominium), number of bedrooms, number of bathrooms, price 
-  range, and an additional comments text area. The information on the form is submitted 
-  by email to the agents’ email address</p>
+  <h2>Contact Us For Your Dream Home</h2>
+  <p>This form is for your personal preferences for the type of property you are interested in. 
+  The information on the form is submitted by email to the agents’ email address</p>
+  <form action="mailto:peterparker@example.com">
+    <fieldset><legend>Contact Info</legend>
+		<label>First Name
+		<input type="text" name="firstName" id="firstName"></label>
+		
+		<label>Last Name
+		<input type="text" name="lastName" id="lastName"></label>
+		
+		<label>Phone
+		<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+		
+		<label>email
+		<input type="email" name="email" id="email"></label>
+	</fieldset>
+	<fieldset><legend>Property Info</legend>
+		<label>Property Type
+		<select id="type">
+			<option value="House">House</option>
+			<option value="Condominium">Condominium</option>
+		</select></label>
+		
+		<label>Number of Bedrooms
+		<input type="number" name="bedrooms" id="bedrooms"></label>
+		
+		<label>Number of Bathrooms
+		<input type="number" name="Bathrooms" id="Bathrooms"></label>
+		
+		<label>Minimum Price
+		<input type="number" name="minPrice" id="minPrice"></label>
+		
+		<label>Maximum Price
+		<input type="number" name="maxPrice" id="maxPrice"></label>
+	</fieldset>
+	<fieldset><legend>Comments</legend>
+		<textarea cols="30" name="Comments" rows="5"></textarea>
+	</fieldset>
+	<input type="submit" value="Submit">&nbsp;<input type="reset">
+  </form>
 </div>
 
 <footer>
-
-<div class="footernav">
-  <a class="active" href="termproject.html">Home</a>
-  <a href="propertylistings.html">Property Listings</a>
-  <a href="contact.html">Contact</a>
-  <a href="sitemapcredits.html">Site Map | Credits</a>
+<div class="footer">
+  Copyright &copy; 2019
 </div>
-
 </footer>
    
 </body>

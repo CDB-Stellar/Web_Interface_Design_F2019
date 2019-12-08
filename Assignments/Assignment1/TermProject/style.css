@@ -7,8 +7,15 @@ body img {
   padding: 15px;
 }
 
+hr {
+  display: block;
+  width: 100%;
+  border-top: 2px dotted #ccd8eb;
+}
+
 p {
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 ul {
@@ -24,8 +31,26 @@ ul li::before {
   margin-left: -2em;
 }
 
-.topnav {
-  height: 7%;
+form {
+	width: 900px;
+	margin: auto;
+}
+
+label {
+	float: left;
+	clear: left;
+	display: block;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+fieldset {
+	margin-bottom: 10px;
+}
+
+.top {
+  height: 10%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -35,34 +60,21 @@ ul li::before {
   background-color: #c3e8df;
 }
 
-.topnav a {
+.top img {
   float: left;
-  color: #40444a;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.topnav a:hover {
-  background-color: #f1f1f1;
-}
-
-.topnav a.active {
-  background-color: #ccd8eb;
-  color: 40444a;
-}
-
-.topnav a.active:hover {
-  color: white;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 25px;
+  line-height: 0px;
 }
 
 .sidenav {
-  height: 86%;
+  height: 88%;
   width: 180px;
   position: fixed;
   z-index: 1;
-  top: 7%;
+  top: 10%;
   left: 0;
   background-color: #ccd8eb;
   overflow-x: hidden;
@@ -89,8 +101,8 @@ ul li::before {
   padding: 0px 10px;
 }
 
-.footernav {
-  height: 7%;
+.footer {
+  height: 2%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -98,28 +110,10 @@ ul li::before {
   left: 0;
   overflow: hidden;
   background-color: #c3e8df;
-}
-
-.footernav a {
-  float: left;
+  
   color: #40444a;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.footernav a:hover {
-  background-color: #f1f1f1;
-}
-
-.footernav a.active {
-  background-color: #ccd8eb;
-  color: 40444a;
-}
-
-.footernav a.active:hover {
-  color: white;
+  font-size: 10px;
 }
 
 @media screen and (max-height: 450px) {
